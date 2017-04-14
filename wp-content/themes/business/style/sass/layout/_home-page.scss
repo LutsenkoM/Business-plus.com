@@ -1,0 +1,177 @@
+.h2 {
+  font-size: 30px;
+  font-family: Tahoma, sans-serif;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+.p {
+  font-size: 16px;
+  font-family: Tahoma, sans-serif;
+  font-style: italic;
+}
+
+.link-style{
+  font-size: 13px;
+  font-family: Tahoma, sans-serif;
+  text-transform: uppercase;
+  text-decoration: none !important;
+  font-weight: bolder;
+  color: #ffaf36;
+  padding: 10px 20px;
+  border: 2px solid #ffaf36;
+  &:hover {
+    color: #fff;
+    background: #ffaf36;
+    text-decoration: none !important;
+  }
+}
+
+.about {
+  padding: 70px;
+  .about-left {
+
+  }
+  .about-right {
+    article {
+      font-size: 14px;
+      line-height: 28px;
+      font-family: Tahoma, sans-serif;
+      margin-bottom: 30px;
+    }
+
+  }
+}
+
+.service {
+  position: relative;
+  background: #eaeff3;
+  &:after {
+    display: block;
+    content: '';
+    width: 218px;
+    height: 101px;
+    position: absolute;
+    bottom: 0;
+    right: 130px;
+    background: url("img/piramid.png") center no-repeat;
+  }
+  padding: 70px;
+  .p {
+    margin-bottom: 20px;
+  }
+  .service-post {
+    margin: 30px 0 50px 0;
+  }
+  .service-icon {
+    margin-right: 20px;
+  }
+  .service-descrip {
+    h2 {
+      font-size: 16px;
+      font-family: Tahoma, sans-serif;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+      font-weight: bolder;
+    }
+    article {
+      color: #585858;
+      font-family: Tahoma, sans-serif;
+      font-size: 14px;
+      line-height: 28px;
+    }
+  }
+}
+
+.clients {
+  padding: 50px;
+  .slick-dots .slick-active button {
+    background-color: #ffaf36 !important;
+  }
+  .client-post {
+    padding: 0 10px;
+    position: relative;
+    &:before {
+      display: block;
+      content: '';
+      width: 93px;
+      height: 61px;
+      position: absolute;
+      top: -25px;
+      left: 0;
+      background: url("img/quote-icon.png") center no-repeat;
+    }
+    article {
+      color: #585858;
+      font-family: Tahoma, sans-serif;
+      font-size: 14px;
+      line-height: 28px;
+      margin-bottom: 20px;
+    }
+    .client-icon {
+      margin-right: 10px;
+    }
+    .client-name {
+      h2 {
+        color: #1c1c1c;
+        font-family: Tahoma, sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 24px;
+        text-transform: uppercase;
+      }
+      p {
+        color: #585858;
+        font-family: Tahoma, sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 28px;
+      }
+    }
+  }
+  .slick-dots li {
+    float: left;
+    margin: 0;
+    button {
+      width: 9px;
+      height: 9px;
+      border-radius: 50%;
+      background-color: #36a8ff;
+      &:before {
+        content: '';
+      }
+    }
+  }
+}
+
+.partners {
+  position: relative;
+  &:after {
+    display: block;
+    content: '';
+    width: 218px;
+    height: 101px;
+    position: absolute;
+    bottom: 0;
+    right: 130px;
+    background: url("img/piramid.png") center no-repeat;
+  }
+  .slick-dots .slick-active button {
+    background-color: #ffaf36 !important;
+  }
+  .slick-dots li {
+    float: left;
+    margin: 0;
+    button {
+      width: 9px;
+      height: 9px;
+      border-radius: 50%;
+      background-color: #36a8ff;
+      &:before {
+        content: '';
+      }
+    }
+  }
+  .slick-dotted.slick-slider {
+    margin: 0;
+  }
+}

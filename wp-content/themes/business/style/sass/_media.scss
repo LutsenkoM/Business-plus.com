@@ -1,0 +1,30 @@
+@media (min-width: 993px) {
+  .nav-wrapp {
+    display: block !important;
+  }
+}
+
+@media (max-width: 992px) {
+  .nav-wrapp {
+    display: none;
+    position: absolute;
+    z-index: 10;
+    top: 66px;
+    left: 0;
+    right: 0;
+    .main-nav {
+      background: rgba(0, 0, 0, 0.8);
+      li {
+        text-align: center;
+        padding: 20px 0;
+        margin-left: 0;
+      }
+    }
+  }
+  #button-menu {
+    display: block !important;
+  }
+  .main-nav {
+    flex-direction: column;
+  }
+}

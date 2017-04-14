@@ -1,0 +1,217 @@
+.blog-page {
+  padding: 50px 0;
+  position: relative;
+  &:after {
+    display: block;
+    content: '';
+    width: 218px;
+    height: 101px;
+    position: absolute;
+    bottom: 0;
+    right: 130px;
+    background: url("img/piramid.png") center no-repeat;
+  }
+}
+.title {
+  color: #1c1c1c;
+  font-family: Tahoma, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 24px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.subtitle {
+  color: #1c1c1c;
+  font-family: Tahoma, sans-serif;
+  font-size: 16px;
+  font-style: italic;
+  line-height: 30px;
+  margin-bottom: 50px;
+}
+.blog-item {
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+  border-bottom: 1px solid #e6e9ee;
+  .margin-bottom {
+    margin-bottom: 30px;
+  }
+  .avatar-author {
+    display: block;
+    min-width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 20px;
+  }
+  h3 {
+    color: #1c1c1c;
+    font-family: Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+  }
+  p {
+    color: #757575;
+    font-family: Tahoma, sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  article p {
+    color: #585858;
+    font-family: Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+  }
+}
+
+.pag-wrap {
+  margin-bottom: 50px;
+  a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #000;
+    font-family: Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 2px solid #000;
+    margin: 0 5px;
+    &:hover {
+      color: #ffaf36;
+      border: 2px solid #ffaf36;
+    }
+  }
+  .current {
+    display: block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #ffaf36;
+    font-family: Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 2px solid #ffaf36;
+    margin: 0 5px;
+  }
+  .next, .prev {
+    display: none;
+  }
+}
+.blockquote {
+  margin-left: 5rem;
+  background: #fef1de;
+  border-left: .25rem solid #ffaf36;
+}
+
+.info-author {
+
+  .ava-author {
+    min-width: 165px;
+    margin-right: 20px;
+  }
+  .info-author-title {
+    background: #36a8ff;
+    padding: 10px;
+    position: relative;
+    &:before {
+      content: '';
+      position: absolute;
+      left: -40px;
+      top: 70px;
+      border: 20px solid transparent;
+      border-right: 20px solid #36a8ff;
+    }
+    h4 {
+      color: white;
+      font-family: Tahoma, sans-serif;
+      font-size: 16px;
+      font-weight: bold;
+      line-height: 24px;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+    p {
+      color: #dbefff;
+      font-family: Tahoma, sans-serif;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 28px;
+      text-transform: none;
+    }
+  }
+}
+
+.comments-area {
+  background-color: #eaeff3;
+  padding-top: 100px;
+  .comment-reply-title {
+    color: #1c1c1c;
+    font-family: Tahoma, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  .comment_notes {
+    color: #1c1c1c;
+    font-family: Tahoma, sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 30px;
+    margin-bottom: 10px;
+  }
+    #author, #email, #phone, #comment {
+      width: 100%;
+      background: transparent;
+      border: none;
+      resize: none;
+      outline: none;
+      border-bottom: 1px solid #dce3e8;
+      margin-bottom: 30px;
+      padding: 10px 0;
+      font-size: 18px;
+      color: #757c81;
+    }
+    .comment {
+      textarea-placeholder {
+        color: #c0392b;
+      }
+    }
+
+    #submit {
+      margin-bottom: 100px;
+    }
+
+}
+
+.addtoany_share_save_container span {
+  border-radius: 50% !important;
+}
+.addtoany_header {
+  font-size: 14px;
+  font-family: Tahoma, sans-serif;
+  text-transform: uppercase;
+  margin: 0 10px 16px 0;
+}
+
+.addtoany_share_save_container {
+  display: flex;
+  align-items: center;
+  clear: both;
+  margin: 16px 0;
+}

@@ -1,0 +1,114 @@
+.welcome-section {
+  background: url("img/bg-welcome.jpg") center no-repeat;
+  background-size: cover;
+}
+.site-header {
+  padding: 30px 0;
+  border-bottom: 1px solid #697573;
+  .fa-phone {
+    padding: 0 10px;
+    margin-left: 20px;
+    border-left: #697573 1px solid;
+    color: #ffaf36;
+  }
+  .phone-num {
+    font-family: Tahoma, sans-serif;
+    font-size: 14px;
+    color: #fff;
+  }
+  .main-nav {
+    li {
+      margin-left: 20px;
+      a {
+        font-family: Tahoma,sans-serif;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: bold;
+        color: #fff;
+        &:hover {
+          color: #ffaf36;
+        }
+      }
+    }
+  }
+}
+.slider-item {
+  h2 {
+    font-size: 16px;
+    font-family: Tahoma, sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  span p {
+    font-size: 60px;
+    font-family: Tahoma, sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  .p-style p {
+    font-size: 15px;
+    font-style: italic;
+    font-family: Tahoma,sans-serif;
+    line-height: 20px;
+    margin-bottom: 40px;
+    color: #fff;
+  }
+  .btn-slider {
+    font-size: 14px;
+    padding: 10px 20px;
+    font-family: Tahoma,sans-serif;
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid #ffaf36;
+    background: #ffaf36;
+    &:hover {
+      background: transparent;
+      color: #ffaf36;
+      border: 1px solid #ffaf36;
+    }
+  }
+}
+.slick-list {
+  padding: 100px 0;
+}
+
+.slick-dots{
+  bottom: 0;
+  li button {
+    width: 24px;
+    height: 3px;
+    padding: 0;
+    background-color: #8f8f8f;
+  }
+  .slick-active button {
+    background-color: #ffaf36;
+  }
+}
+
+#button-menu {
+  display: none;
+  background-color: transparent;
+  background: none;
+  border: 1px solid transparent;
+  outline: none;
+  &:hover {
+    cursor: pointer;
+  }
+  & span {
+    display: block;
+    width: 24px;
+    height: 3px;
+    margin-bottom: 3px;
+    background-color: #fff;
+  }
+}
+
+.header-custom {
+  height: 35vh;
+  background: url("img/bg-custom-header.jpg") center no-repeat;
+  background-size: cover;
+}
